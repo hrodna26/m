@@ -1,0 +1,14 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {"type": "Feature", "id": 0, "geometry": {"type": "Point", "coordinates": [53.656497, 23.843536]}, "properties": {  "iconCaption": "пр-т Янки Купалы", "balloonContentHeader": "<font size=3>пр-т Янки Купалы</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/kupaly.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}},
+        {"type": "Feature", "id": 1, "geometry": {"type": "Point", "coordinates": [53.687612, 23.841947]}, "properties": {  "iconCaption": "ул. 1 Мая", "balloonContentHeader": "<font size=3>ул. 1 Мая</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/1may.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}},
+        {"type": "Feature", "id": 2, "geometry": {"type": "Point", "coordinates": [53.674498, 23.841099]}, "properties": {  "iconCaption": "ул. Антонова", "balloonContentHeader": "<font size=3>ул. Антонова</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/antonova.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}},
+        {"type": "Feature", "id": 3, "geometry": {"type": "Point", "coordinates": [53.688068, 23.837369]}, "properties": {  "iconCaption": "ул. Богдановича", "balloonContentHeader": "<font size=3>ул. Богдановича</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/bogdanovicha.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}},
+        {"type": "Feature", "id": 4, "geometry": {"type": "Point", "coordinates": [53.682394, 23.844492]}, "properties": {  "iconCaption": "ул. Будённого", "balloonContentHeader": "<font size=3>ул. Будённого</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/budenogo.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}},
+        {"type": "Feature", "id": 5, "geometry": {"type": "Point", "coordinates": [53.644847, 23.853767]}, "properties": {  "iconCaption": "ул. Кабяка", "balloonContentHeader": "<font size=3>ул. Кабяка</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/kabyaka.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}},
+        {"type": "Feature", "id": 6, "geometry": {"type": "Point", "coordinates": [53.649545, 23.846668]}, "properties": {  "iconCaption": "пр-т Клецкова", "balloonContentHeader": "<font size=3>пр-т Клецкова</font>", "balloonContentBody": "<button class='yamaps_button' onclick='window.open(`../s/kletskova.html`);'>Перейти <i class='fa-solid fa-angle-right'></i></button>"}}
+    ]
+}
+
+ 

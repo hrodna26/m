@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музей истории улиц г. Гродно</title>
+    <script type="text/javascript">
+      function checkWidth(params) {
+        if (screen.width <= 480) {
+      window.location = "./m";
+      }
+      }
+     
+        window.addEventListener('resize', (e) => {
+          checkWidth();
+        });
+
+        checkWidth();
+      </script>
+    <link rel="stylesheet" type="text/css" href="res/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fbf3533561.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="120x120" href="res/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="res/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="res/favicon-16x16.png">
+    <link rel="shortcut icon" href="res/favicon.ico">
+
+</head>
+<body>
+    
+    <header>
+        <div class="wrap-logo">
+        <img src="res/mus_logo.png"  alt="Музей истории улиц города Гродно" width="378px" height="65px" >
+        </div>
+    </header>
+
+
+      <div class="hello_box">
+        <div class="hello_info">
+            <h1 class="hello_h1">Музей истории улиц города Гродно</h1>
+            <h1 class="hello_h1">Онлайн-экспозиция</h1>
+            <p class="hello_p">Музей истории улиц города Гродно на базе ГУО «Средняя школа №26 имени А.Н.Сивачёва г.Гродно» распахнул свои двери в далеком 1988 году благодаря инициативе, большой организационной, научно-методической деятельности коллектива школы. Музей стал тем местом, где воплощены были замыслы и реализованы многие цели учителей и ребят. Он увековечил память об улицах города Гродно, их прошлом и настоящем, о тех, кто защищал нашу Родину в годы Великой Отечественной войны.  Деятельность школьного музея стала одной из лучших форм общественно-полезной работы юных краеведов, историков, объединяющая не только актив музея, но и большое количество учащихся школы, учителей, родителей, бабушек и дедушек, общественности. <br><br> C момента запуска Музей истории улиц посетило более 40 тысяч человек - и сегодня, вместе с открытием онлайн-экспозиции, возможность посетить наш музей есть у всех желающих. </p>
+        </div>
+      </div>
+
+      <div class="main_container">
+        <div class="main">
+          
+          <div class="fullh_block yamaps" onclick="window.open('./map');">      
+            <table style="width: 100%;">
+              <tr>
+                <td><h1 class="yamaps_h1">Интерактивная карта</h1></td>
+                  <td align="right" valign="bottom">
+                    <button class="yamaps_button">Перейти <i class="fa-solid fa-angle-right"></i></button>
+                  </td>
+              </tr>
+            </table>
+          </div>
+
+
+          <table style="width: 100%;">
+            <tr>
+              <td style="width: 40vw;">
+                <div class="block_duo sch_his">   
+                  <table style="width: 100%;">
+                    <tr> 
+                      <td align="right">
+                      <span>
+                      <h1 class="duo_h1">История школы</h1>
+                      <p class="duo_p">Школа №26 – это свой необычный мир. <br> Проходит год за годом, а она живёт своей <br>удивительной, радостной, шумной жизнью.</p>
+                      </span>
+                    </td>
+                  </tr>
+                  </table>
+                </div>
+              </td>
+
+              <td style="width: 40vw;">
+                  <div class="block_duo siv">
+                    <table style="width: 100%;">
+                      <tr>
+                        <td align="right">
+                          <h1 class="duo_h1">Герою-пограничнику</h1>
+                          <h1 class="duo_h1">А.Н.Сивачёву посвящается</h1>
+                          <p class="duo_p">О подвиге героя, пожертвовавшего жизнью <br> ради мирного неба над нашими головами сегодня.</p>
+                      </td>
+                    </tr>
+                    </table>
+
+                  </div>
+                </td>
+
+              </tr>
+          </table>
+
+          <h1 class="hello_h1" style="color:black; margin-top: 30px; margin-bottom: 35px;">Улицы города Гродно</h1>
+        
+
+          <table style="width: 100%;" class="streets_catalog">
+            <tr>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/1may.html');"> <div class="flex"><p>ул. 1 Мая</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/antonova.html');"> <div class="flex"><p>ул. Антонова</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/bogdanovicha.html');"> <div class="flex"><p>ул. Богдановича</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/budenogo.html');"> <div class="flex"><p>ул. Будённого</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/kabyaka.html');"> <div class="flex"><p>ул. Кабяка</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/kletskova.html');"> <div class="flex"><p>пр-т Клецкова</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="street">
+                  <div class="block_three" onclick="window.open('./s/kupaly.html');"> <div class="flex"><p>пр-т. Янки Купалы</p> <p><i class="fa-solid fa-angle-right"></i></p> </div></div>
+                </td>
+              </tr>
+              
+          </table>
+
+          <br><br><br><br>
+
+          <table>
+            <tr>
+              <td style="width: 40vw;">
+
+                <div class="block_duo site" onclick="window.open('https://sch26.oktobrgrodno.gov.by/');">   
+                  <table style="width: 100%;">
+                    <tr> 
+                      <td align="right" >
+                      <span>
+                      <h1 class="duo_h1">Сайт школы</h1>
+                      <p class="duo_p">Информация и контакты школы</p>
+                      <button class="yamaps_button" style="height: 35px;">Перейти</button>
+                      </span>
+                    </td>
+                  </tr>
+                  </table>
+                </div>
+              </td>
+
+                <td style="width: 40vw;">
+                  <div class="block_duo inst" onclick="window.open('https://www.instagram.com/school_grodno_26/');">
+                    <table style="width: 100%;">
+                      <tr>
+                        <td align="right">
+                          <h1 class="duo_h1">Instagram школы</h1>
+                          <p class="duo_p">Яркие моменты наших школьных будней</p>
+                          <button class="yamaps_button" style="height: 35px;">Перейти</button>
+                      </td>
+                    </tr>
+                    </table>
+
+                  </div>
+                </td>
+              </tr>
+          </table>
+
+          <br><br>
+        </div></div>
+
+    <footer>
+        <div class="wrap-logo">
+        <p>© 2024 ГУО «Средняя школа №26 имени А.Н.Сивачёва г.Гродно»</p>
+        </div>
+    </footer>
+</body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+  k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(96354193, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/96354193" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</html>
