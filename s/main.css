@@ -116,6 +116,7 @@ header a.logo {
     font-family: 'PT Sans', sans-serif;
     transition: all 0.3s;
     border: 1px solid #dfdfdf;
+    text-align: justify;
 }
 
 .yamaps {
@@ -182,6 +183,7 @@ header a.logo {
     margin: 0;
     padding: 0;
     font-size: 1.5vw;
+    text-align: left;
 }
 .duo_p {
     color: #000;
